@@ -2,10 +2,9 @@
 
 from "Java Data Structures and Algorithms Masterclass" from udemy
 
-# How to run any code
-
-Go to the code directory and in terminal run "javac FileName.java" then run "java filename"
+In each folder the main file has a package line with that folder name because java make each folder as a package
 
 # Steps
 
 1. Big O
+2. Arrays

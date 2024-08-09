@@ -1,4 +1,6 @@
-public class Big_O {
+package Big_O;
+
+class Main {
 
     // Time Complexity
 
