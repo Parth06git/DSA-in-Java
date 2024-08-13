@@ -23,5 +23,12 @@ class Main {
         sda.insert(1, 9);
         sda.insert(1, 5);
         sda.insert(12, 30);
+
+        // var firstElement = sda.arr[0];
+        // System.out.println(firstElement);
+
+        // sda.traverseArray();
+        // sda.searchInArray(9);
+        sda.deleteValue(1);
     }
 }
