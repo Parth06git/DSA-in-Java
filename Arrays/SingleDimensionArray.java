@@ -3,7 +3,7 @@ package Arrays;
 public class SingleDimensionArray {
     int arr[] = null;
 
-    public SingleDimensionArray(int sizeOfAray) { // O(1) - TC && O(N) - SC
+    public SingleDimensionArray(int sizeOfAray) { // O(N) - TC && O(N) - SC
         arr = new int[sizeOfAray];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = Integer.MIN_VALUE;
