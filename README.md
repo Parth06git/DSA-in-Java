@@ -6,6 +6,7 @@ In each folder the main file has a package line with that folder name because ja
 
 TC -> Time Complexity
 SC -> Space Complexity
+STC -> Space and Time Complexity
 
 # Steps
 
