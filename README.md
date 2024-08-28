@@ -12,3 +12,6 @@ STC -> Space and Time Complexity
 
 1. Big O
 2. Arrays
+3. ArrayList
+4. Few interview question for arrays
+5. Linked List
