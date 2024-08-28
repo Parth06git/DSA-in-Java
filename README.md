@@ -4,9 +4,12 @@ from "Java Data Structures and Algorithms Masterclass" from udemy
 
 In each folder the main file has a package line with that folder name because java make each folder as a package
 
+# Short Forms used in comment in codes
+
 TC -> Time Complexity
 SC -> Space Complexity
 STC -> Space and Time Complexity
+LL -> Linked List
 
 # Steps
 
