@@ -140,6 +140,11 @@ public class Doubly_Linked_List {
         if (head == null) {
             System.out.print("DLL doesn't exist");
         } else {
+            DoublyNode tDoublyNode = head;
+            for (int i = 0; i < size; i++) {
+                tDoublyNode.prev = null;
+                tDoublyNode = tDoublyNode.next;
+            }
             head = null;
             tail = null;
             System.out.println("DLL is deleted Successfully");
