@@ -23,6 +23,7 @@ public class Circular_Singly_LL {
         node.value = nodeValue;
         if (head == null) {
             createCircularSinglyLL(nodeValue);
+            return;
         } else if (location == 0) {
             node.next = head;
             head = node;
