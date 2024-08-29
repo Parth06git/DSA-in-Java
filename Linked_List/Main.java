@@ -22,6 +22,7 @@ public class Main {
         sll.traversalSinglyLL();
 
         // Circular Singly Linked List
+
         Circular_Singly_LL csll = new Circular_Singly_LL();
         csll.createCircularSinglyLL(123);
         // System.out.println(csll.head.value);
@@ -35,5 +36,21 @@ public class Main {
         csll.traversalCSLL();
         csll.deleteCSLL();
         csll.traversalCSLL();
+
+        // Doubly Linked List
+
+        Doubly_Linked_List dll = new Doubly_Linked_List();
+        dll.createDLL(15);
+        // System.out.println(dll.head.value);
+        dll.insertDLL(13, 4);
+        dll.insertDLL(18, 0);
+        dll.insertDLL(17, 1);
+        // System.out.println(dll.head.next.value);
+        dll.traversalDLL();
+        dll.searchInDLL(7);
+        dll.deleteInDLL(2);
+        dll.traversalDLL();
+        dll.deleteDLL();
+        dll.traversalDLL();
     }
 }
