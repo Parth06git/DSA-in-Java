@@ -136,7 +136,7 @@ public class Doubly_Linked_List {
     }
 
     // Deleting entire DLL
-    public void deleteDLL() {
+    public void deleteDLL() { // O(N) - TC && O(1) - SC
         if (head == null) {
             System.out.print("DLL doesn't exist");
         } else {
