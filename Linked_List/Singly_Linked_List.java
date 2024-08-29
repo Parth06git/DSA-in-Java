@@ -23,6 +23,7 @@ public class Singly_Linked_List {
         node.value = nodeValue;
         if (head == null) {
             createSinglyLL(nodeValue);
+            return;
         } else if (location == 0) {
             node.next = head;
             head = node;
