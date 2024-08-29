@@ -52,5 +52,21 @@ public class Main {
         dll.traversalDLL();
         dll.deleteDLL();
         dll.traversalDLL();
+
+        // Circular Doubly Linked List
+
+        Circular_Doubly_LL cdll = new Circular_Doubly_LL();
+        cdll.createCDLL(15);
+        // System.out.println(cdll.head.prev.value);
+        cdll.insertCDLL(20, 0);
+        cdll.insertCDLL(13, 10);
+        cdll.insertCDLL(134, 2);
+        cdll.traversalCDLL();
+        cdll.reverseTraversalCDLL();
+        cdll.searchInCDLL(13);
+        cdll.deleteFromCDLL(2);
+        cdll.traversalCDLL();
+        cdll.deleteCDLL();
+        cdll.traversalCDLL();
     }
 }
